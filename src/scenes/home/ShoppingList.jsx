@@ -45,8 +45,8 @@ const ShoppingList = () => {
         Featured <b>Memberships</b>
       </Typography>
 
-      {/**
-       *      <Tabs
+
+      <Tabs
         textColor="primary"
         indicatorColor="primary"
         value={value}
@@ -60,12 +60,12 @@ const ShoppingList = () => {
           },
         }}
       >
-       * <Tab label="ALL" value="all" />
-        <Tab label="NEW ARRIVALS" value="newArrivals" />
-        <Tab label="BEST SELLERS" value="bestSellers" />
-        <Tab label="TOP RATED" value="topRated" />
+        <Tab label="ALL" value="all" />
+        <Tab label="NFT" value="newArrivals" />
+        <Tab label="ERC" value="bestSellers" />
+        <Tab label="L-P" value="topRated" />
       </Tabs>
-       */}
+
       <Box
         margin="0 auto"
         display="grid"
